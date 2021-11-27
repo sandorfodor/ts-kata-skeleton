@@ -4,6 +4,12 @@
 
 Simple skeleton for code katas in typescript.
 
+## Set proper Node version
+
+```bash
+nvm use
+```
+
 ## Run tests
 
 ```bash
