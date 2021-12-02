@@ -1,9 +1,9 @@
 interface KataInterface {
-  runTests(): boolean;
+  execute(): boolean;
 }
 
 class Kata implements KataInterface {
-  runTests(): boolean {
+  execute(): boolean {
     return true;
   }
 }

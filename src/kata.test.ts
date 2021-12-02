@@ -1,8 +1,8 @@
 import Kata from './kata';
 
-describe('runTests()', () => {
+describe('execute()', () => {
   it('should return true', () => {
     const kata = new Kata();
-    expect(kata.runTests()).toBe(true);
+    expect(kata.execute()).toBe(true);
   });
 });
